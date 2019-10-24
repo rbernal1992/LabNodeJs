@@ -1,0 +1,110 @@
+h1{
+  text-align: center;
+  font-size: 50px;
+}
+
+html {
+  height: 100%;
+}
+
+body{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  margin: auto;
+  padding: 0;
+  height: 100%;
+  background-color: red;
+}
+
+fieldset{
+    text-overflow: clip;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border-color: transparent;
+    padding: 20px;
+    margin: auto;
+    margin-top:20px;
+}
+
+
+.moditem {
+	padding-left: 10%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	display: block;
+	background-color:rgba(33.3%, 33.3%, 33.3%, 0.3);
+	border: 2px solid black;
+	width: 100%;
+	font-size: 14px;
+  color: white;
+}
+
+#modify, #submt, .markAllButton, .deleteButton {
+  background-color: rgba(3.9%, 23.5%, 70%, 0.99);
+  display: inline-block;
+  margin-top: 10px;
+  border: none;
+  padding: 15px;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+}
+
+.buttons{
+  margin: 0 auto 10px auto;
+  width: 90%; 
+}
+
+.additm {
+  padding-left: 10%;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  display: block;
+  background-color:rgba(33.3%, 33.3%, 33.3%, 0.3);
+  border: 2px solid black;
+  width: 100%;
+  font-size: 14px;
+  color: white;
+}
+
+.banner {
+  overflow:hidden;
+  background-color:#2994DA;
+  text-align: center;
+}
+
+li {
+	padding-left: 10%;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	font-size: 15px;
+	color: white;
+	border: 1px solid black;
+	width: 40%;
+}
+
+.content{
+	height: 50px;
+	width: 15%;
+	word-break: break-word;
+	
+}
+
+.titleForm{
+	width: 60%;
+	padding-left: 10%;
+	font-size: 24px;
+}
+
+.newDate{
+	width: 40px;
+	
+	
+}
+
+#tomodifyid{
+	width: 13%;
+	
+}

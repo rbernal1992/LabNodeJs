@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jammer</title>
+   <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+</head>
+  <body>
+  <main>
+  <div>
+  <h1> AJAX Laboratory</h1>
+  <form id="postLists">
+  <div class="additm">
+  <div class="titleForm"> Add an item </div>
+  <div><label for="additemtitle">Title </label><input id="additemtitle"/></div>
+  <div><label for="additemcontent">Content </label><textarea name="textarea" id="additemcontent" style="width:250px;height:150px;"></textarea></div>
+  <div><label for="additemauthor">Author </label><input id="additemauthor"/></div>
+  <div><label for="additempbdateday">day </label><input id="additempbdateday" class="newDate"/><label for="additempbdatemonth"> month </label><input id="additempbdatemonth" class="newDate"/><label for="additempbdateyear"> year </label><input id="additempbdateyear" class="newDate"/></div>
+  <button type="submit" id="submt">Submit</button>
+  </div>
+  <div class="moditem">
+  <div class="titleForm"> Modify item </div>
+  <div><label for="tomodifyid">Id to Modify </label><input id="tomodifyid" /></div>
+  <div ><label for="tomodifytitle">Title </label><input id="tomodifytitle"/></div>
+  <div ><label for="tomodifycontent">Content </label><textarea name="textarea" id="tomodifycontent" style="width:250px;height:150px;"></textarea></div>
+  <div><label for="tomodifyauthor">Author </label><input id="tomodifyauthor"/></div>
+  <div ><label for="tomodifypbdateday">day </label><input id="tomodifypbdateday" class="newDate"/><label for="tomodifypbdatemonth"> month </label><input id="tomodifypbdatemonth" class="newDate"/><label for="tomodifypbdateyear"> year </label><input id="tomodifypbdateyear" class="newDate"/></div>
+  <button id="modify">Modify</button>
+  </div>
+  <div>
+  <ul id="listofPosts">
+  </ul>
+  </div>
+  </form>
+  </div>
+  </main>
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+  <script src="./js/index.js" type="text/javascript"> </script>
+  </body>
+  </html>

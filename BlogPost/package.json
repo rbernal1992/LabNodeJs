@@ -1,0 +1,16 @@
+{
+  "name": "blogpost",
+  "version": "1.0.0",
+  "description": "This is the blog-post",
+  "main": "blog-post.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Roberto Bernal Dominguez",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "morgan": "^1.9.1",
+    "uuid": "^3.3.3"
+  }
+}
